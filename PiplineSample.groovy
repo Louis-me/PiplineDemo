@@ -1,19 +1,19 @@
-pipline{
+pipeline{
 	agent any
 	stages {
 		stage('Build') {
 			steps {
-				printIn "Build"
+				print "Build"
 			}
 		}
 		stage('Test') {
 			steps {
-				printIn "Test"
+				print "Test"
 			}
 		}
 		stage('Deploy') {
 			steps {
-				printIn "Deploy"
+				print "Deploy"
 			}
 		}
 	}
